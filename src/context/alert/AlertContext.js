@@ -29,3 +29,4 @@ AlertProvider.propTypes = {
     children: PropTypes.node.isRequired,
 };
 
+export default AlertContext
