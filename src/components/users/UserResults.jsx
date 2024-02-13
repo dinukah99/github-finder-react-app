@@ -3,7 +3,7 @@ import Spinner from "../layout/Spinner.jsx";
 import UserItem from "./UserItem.jsx";
 import GithubContext from "../../context/github/GithubContext.js";
 
-function UserResults(props) {
+function UserResults() {
     const {users, loading} = useContext(GithubContext)
 
     if (!loading) {
